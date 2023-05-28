@@ -1,5 +1,11 @@
 @import "./header";
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 @font-face {
   font-family: "Forum";
   src: url(../font/Forum-Regular.ttf);
@@ -9,4 +15,20 @@
 
 body {
   font-family: "Forum";
+  font-weight: 400;
+}
+
+.container {
+  width: 100%;
+  max-width: 1770px;
+  padding: 0 40px;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
