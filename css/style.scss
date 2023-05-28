@@ -1,0 +1,12 @@
+@import "./header";
+
+@font-face {
+  font-family: "Forum";
+  src: url(../font/Forum-Regular.ttf);
+  font-style: normal;
+  font-weight: 400;
+}
+
+body {
+  font-family: "Forum";
+}
