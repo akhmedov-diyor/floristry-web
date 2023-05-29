@@ -1,11 +1,13 @@
 .header-section {
   background-image: url(../img/header-bg.png);
+  background-repeat: no-repeat;
   padding-top: 87px;
 
   &__wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 190px;
   }
 
   &__menu {
@@ -33,5 +35,65 @@
     line-height: 22.08px;
     letter-spacing: 6%;
     color: #fff;
+  }
+
+  &__hero {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.hero-section {
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 172px;
+  }
+
+  &__item {
+    margin-bottom: 24px;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__title {
+    width: 100%;
+    max-width: 818px;
+    font-size: 120px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 132.48px;
+    letter-spacing: 9%;
+    margin-bottom: 80px;
+  }
+
+  &__btn {
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    line-height: 13.25px;
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    padding: 17.5px 30px;
+    margin-bottom: 255px;
+  }
+
+  &__bottom {
+    right: -0;
+    font-size: 20px;
+    line-height: 22.08px;
+    letter-spacing: 2px;
+    color: #fff;
+    font-weight: 400;
+    writing-mode: vertical-rl;
   }
 }
