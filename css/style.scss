@@ -4,6 +4,7 @@
 @import "./composition";
 @import "./product";
 @import "./partner";
+@import "./footer";
 
 * {
   margin: 0;
@@ -42,4 +43,11 @@ li {
 
 a {
   text-decoration: none;
+}
+
+a:hover {
+  background-color: var(--white);
+  color: var(--brown);
+  font-weight: bold;
+  transition: all 0.2s;
 }
