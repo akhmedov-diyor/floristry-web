@@ -2,6 +2,7 @@
 @import "./catalog";
 @import "./sale";
 @import "./composition";
+@import "./product";
 
 * {
   margin: 0;
@@ -12,6 +13,7 @@
 :root {
   --brown: #3b181e;
   --white: #ffffff;
+  --card-bg: #281014;
 }
 
 @font-face {
